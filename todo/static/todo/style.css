@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Anton:100,300,400,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:100,300,400,600,700,900);
+
+body {
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Fjalla One',sans-serif!important;    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Anton',sans-serif!important; 
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+.todo-complete {
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.btn {
+    text-transform: uppercase;    
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1em;
+    color: inherit;
+    font-size: 1em;
+    text-transform: uppercase;
+}
